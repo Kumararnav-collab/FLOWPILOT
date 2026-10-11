@@ -1,0 +1,10 @@
+{
+  "description": "Automate repetitive business tasks with AI agents for customer support, lead capture, appointments, and custom workflows to boost efficiency and focus.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
