@@ -159,4 +159,4 @@ Deploy — Deploy the completed automation.
 
 For enquiries or questions:
 
-flowpilot.ai@gmail.com
+flowpilott.ai@gmail.com
