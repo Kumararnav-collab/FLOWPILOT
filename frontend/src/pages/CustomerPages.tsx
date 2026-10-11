@@ -29,10 +29,10 @@ type OrderRecord = {
   requirement: Requirement
 }
 
-type ChatCard = { type: "recommendation" agent: AIModel } | {
+type ChatCard = { type: "recommendation"; agent: AIModel } | {
   type: "summary"
   requirement: Requirement
-} | { type: "order" order: OrderRecord }
+} | { type: "order" ; order: OrderRecord }
 
 type Message = {
   id: number
@@ -1406,7 +1406,7 @@ export function AccountPage() {
   usePageTitle("Account")
   const user = JSON.parse(
     sessionStorage.getItem("flowpilot-customer") || "{}",
-  ) as { name?: string email?: string }
+  ) as { name?: string ; email?: string }
   return (
     <WorkspacePlaceholder
       label="ACCOUNT"

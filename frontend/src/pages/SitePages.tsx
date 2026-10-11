@@ -9,7 +9,7 @@ import {
   usePageTitle,
 } from "../components/UI"
 
-const solutions: { title: string description: string icon: IconName }[] = [
+const solutions: { title: string; description: string; icon: IconName }[] = [
   {
     title: "Website AI Agent",
     description:

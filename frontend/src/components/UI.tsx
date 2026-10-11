@@ -92,7 +92,7 @@ const paths: Record<IconName, ReactNode> = {
   x: <path d="m6 6 12 12M18 6 6 18" />,
 }
 
-export function Icon({ name, size = 20 }: { name: IconName size?: number }) {
+export function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
   return (
     <svg
       aria-hidden="true"
@@ -113,7 +113,7 @@ export function Icon({ name, size = 20 }: { name: IconName size?: number }) {
 export function Logo() {
   return (
     <Link className="logo" to="/" aria-label="FlowPilot home">
-      <img className="brand-logo" src={flowPilotBrand} alt="FlowPilot" />
+      <img className="brand-logo" src={flowPilotLogo} alt="FlowPilot" />
     </Link>
   )
 }
