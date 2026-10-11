@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react"
-import { NavLink, Outlet, useLocation } from "react-router"
-import { Icon, Logo } from "./UI"
+import flowPilotLogo from "../assets/flowpilot-brand-lockup.png";
+import { useEffect, useState } from "react";
+import { NavLink, Outlet, useLocation } from "react-router";
+import { Icon, Logo } from "./UI";
+
 
 const navItems = [
   ["/", "Home"],

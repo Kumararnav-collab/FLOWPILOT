@@ -1,6 +1,6 @@
 import { ReactNode, useEffect } from "react"
 import { Link } from "react-router"
-import flowPilotBrand from "../assets/flowpilot-brand-lockup.png"
+import flowPilotLogo from "../assets/flowpilot-brand-lockup.png";
 
 export type IconName = "arrow" | "calendar" | "call" | "chat" | "check" | "chevron" | "database" | "document" | "flow" | "globe" | "lead" | "mail" | "menu" | "moon" | "spark" | "sun" | "target" | "whatsapp" | "x"
 
@@ -113,9 +113,13 @@ export function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
 export function Logo() {
   return (
     <Link className="logo" to="/" aria-label="FlowPilot home">
-      <img className="brand-logo" src={flowPilotLogo} alt="FlowPilot" />
+      <img
+        className="brand-logo"
+        src={flowPilotLogo}
+        alt="FlowPilot"
+      />
     </Link>
-  )
+  );
 }
 
 export function ActionLink({
